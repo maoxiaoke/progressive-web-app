@@ -1,12 +1,24 @@
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  const test = () => {
+    fetch('http://localhost:3002/content.json')
+      .then(res => res.json())
+      .then(res => {
+        console.log('json-fetch', res)
+        // document.getElementById('xiaoke').innerHTML = res.a;
+      })
+  }
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next</a>
         </h1>
+
+        <div onClick={test}>testfsfsfdfs</div>
 
         <p className={styles.description}>
           Get started by editing{' '}
