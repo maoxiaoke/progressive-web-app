@@ -19,7 +19,6 @@ export default function Home() {
         </h1>
 
         <div onClick={test}>test</div>
-        <div>这里加一个东东</div>
         <div>再加一个东西吧</div>
 
         <p className={styles.description}>
