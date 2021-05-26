@@ -18,7 +18,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next</a>
         </h1>
 
-        <div onClick={test}>testfsfsfdfs</div>
+        <div onClick={test}>testfsf</div>
 
         <p className={styles.description}>
           Get started by editing{' '}
