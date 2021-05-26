@@ -19,6 +19,7 @@ export default function Home() {
         </h1>
 
         <div onClick={test}>testfsf</div>
+        <div>这里加一个东东</div>
 
         <p className={styles.description}>
           Get started by editing{' '}
