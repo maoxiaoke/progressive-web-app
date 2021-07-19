@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next</a>
         </h1>
-        <img src="https://img.alicdn.com/tfs/TB1.ZBecq67gK0jSZFHXXa9jVXa-904-826.png" alt="logo">
+        <img src="https://img.alicdn.com/tfs/TB1.ZBecq67gK0jSZFHXXa9jVXa-904-826.png" alt="logo" />
 
         <div onClick={test}>test</div>
         <div>再加一个东西吧 - 这里测试一下 07.15 -1</div>
